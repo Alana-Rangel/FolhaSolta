@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Folhasolta - Site Educacional</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>FolhaSolta</h1>
+      <p></p>
+    </header>
+
+    <nav>
+      <button class="button" onclick="mostrarConteudo('matematica')">
+        Matemática
+      </button>
+      <button class="button" onclick="mostrarConteudo('portugues')">
+        Português
+      </button>
+      <button class="button" onclick="mostrarConteudo('historia')">
+        História do Brasil
+      </button>
+      <button class="button" onclick="mostrarConteudo('ciencias')">
+        Ciências
+      </button>
+    </nav>
+
+    <div id="conteudo">
+      <!-- Conteúdo de Matemática -->
+      <div id="matematica" class="materia" style="display: none">
+        <h2>Matemática</h2>
+        <ul>
+          <li>
+            <a href="pdfs/Introdução a Matemática.pdf" target="_blank"
+              >1º ano: Introdução à Matemática</a
+            >
+          </li>
+          <li>
+            <a href="pdfs/Números e operações básicas .pdf" target="_blank"
+              >2º ano: Números e Operações Básicas</a
+            >
+          </li>
+          <li>
+            <a href="pdfs/matematica_3ano.pdf" target="_blank"
+              >3º ano: Frações e Decimais</a
+            >
+          </li>
+          <li>
+            <a href="pdfs/matematica_4ano.pdf" target="_blank"
+              >4º ano: Geometria Básica</a
+            >
+          </li>
+          <li>
+            <a href="pdfs/matematica_5ano.pdf" target="_blank"
+              >5º ano: Problemas de Matemática</a
+            >
+          </li>
+          <li>
+            <a href="pdfs/matematica_6a9ano.pdf" target="_blank"
+              >6º ao 9º ano: Álgebra, Geometria e Funções</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <!-- Conteúdo de Português -->
+      <div id="portugues" class="materia" style="display: none">
+        <h2>Português</h2>
+        <ul>
+          <li>
+            <a href="pdfs/portugues_1ano.pdf" target="_blank"
+              >1º ano: Leitura e Escrita de Palavras Simples</a
+            >
+          </li>
+          <li>
+            <a href="pdfs/portugues_2ano.pdf" target="_blank"
+              >2º ano: Frases e Sintaxe</a
+            >
+          </li>
+          <li>
+            <a href="pdfs/portugues_3ano.pdf" target="_blank"
+              >3º ano: Leitura e Interpretação de Textos</a
+            >
+          </li>
+          <li>
+            <a href="pdfs/portugues_4ano.pdf" target="_blank"
+              >4º ano: Gramática: Substantivos e Verbos</a
+            >
+          </li>
+          <li>
+            <a href="pdfs/portugues_5ano.pdf" target="_blank"
+              >5º ano: Concordância Verbal</a
+            >
+          </li>
+          <li>
+            <a href="pdfs/portugues_6a9ano.pdf" target="_blank"
+              >6º ao 9º ano: Redação, Pontuação e Pronomes</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <!-- Conteúdo de História -->
+      <div id="historia" class="materia" style="display: none">
+        <h2>História do Brasil</h2>
+        <ul>
+          <li>
+            <a href="pdfs/historia_1a5ano.pdf" target="_blank"
+              >1º ao 5º ano: História do Brasil Antigo</a
+            >
+          </li>
+          <li>
+            <a href="pdfs/historia_6ano.pdf" target="_blank"
+              >6º ano: Brasil Colonial</a
+            >
+          </li>
+          <li>
+            <a href="pdfs/historia_7ano.pdf" target="_blank"
+              >7º ano: Brasil Império</a
+            >
+          </li>
+          <li>
+            <a href="pdfs/historia_8ano.pdf" target="_blank"
+              >8º ano: República Brasileira</a
+            >
+          </li>
+          <li>
+            <a href="pdfs/historia_9ano.pdf" target="_blank"
+              >9º ano: História Contemporânea do Brasil</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <!-- Conteúdo de Ciências -->
+      <div id="ciencias" class="materia" style="display: none">
+        <h2>Ciências</h2>
+        <ul>
+          <li>
+            <a href="pdfs/ciencias_1a5ano.pdf" target="_blank"
+              >1º ao 5º ano: Ciências Naturais Básicas</a
+            >
+          </li>
+          <li>
+            <a href="pdfs/ciencias_6a7ano.pdf" target="_blank"
+              >6º ao 7º ano: Corpo Humano e Meio Ambiente</a
+            >
+          </li>
+          <li>
+            <a href="pdfs/ciencias_8a9ano.pdf" target="_blank"
+              >8º ao 9º ano: Biologia, Física e Química Básica</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
